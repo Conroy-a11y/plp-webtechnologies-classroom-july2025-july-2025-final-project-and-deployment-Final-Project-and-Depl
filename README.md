@@ -74,7 +74,7 @@ Deployment checklist:
    - Complete project code, properly organized
    - A `README.md` explaining purpose, structure, and deployment URL
 
-2. **Live Website Deployment** via GitHub Pages, Netlify, or Vercel.
+2. **Live Website Deployment** via Netlify.
 
 ---
 
