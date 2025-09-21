@@ -92,4 +92,4 @@ Deployment checklist:
 ## 🔗 Live Demo
 
 👉 [View the live website here]  
-_(Replace `#` with your actual deployed site link once live)_
+_(Replace `#` with your actual deployed site link once lives)_
