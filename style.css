@@ -1,0 +1,120 @@
+/* ====== CSS Variables for Easy Color Optimization ====== */
+    :root {
+      --primary: #0077b6;
+      --secondary: #90e0ef;
+      --background: #f8f9fa;
+      --text: #333;
+      --white: #fff;
+    }
+
+    /* ====== Global Styles ====== */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: var(--white);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: var(--white);
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    header nav a:hover {
+      color: var(--secondary);
+    }
+
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: var(--primary);
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: var(--white);
+      padding: 0.7rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: var(--secondary);
+      color: var(--text);
+    }
+
+    /* ====== Contact Form ====== */
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+      background: var(--white);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      width: 100%;
+      padding: 0.7rem;
+      background: var(--primary);
+      color: var(--white);
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: var(--secondary);
+      color: var(--text);
+    }
+
+    /* ====== Responsive Design ====== */
+    @media (max-width: 768px) {
+      header nav {
+        flex-direction: column;
+      }
+      header nav a {
+        margin: 0.5rem 0;
+      }
+    }
