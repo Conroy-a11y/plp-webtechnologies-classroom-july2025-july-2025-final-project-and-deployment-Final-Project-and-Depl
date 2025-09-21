@@ -1,4 +1,4 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 📦 Final Assignment: A Multipage Website
 
 This project is the **capstone assignment** that brings together everything learned about **HTML, CSS, JavaScript, planning, structure, and deployment**.  
 The goal is to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world. 🚀
@@ -9,8 +9,8 @@ The goal is to **conceptualize, build, and deploy a multi-page website** that is
 
 Before writing code, the project involves careful planning:
 
-- Define the website’s purpose (e.g., portfolio, product showcase, blog).
-- Outline 3–5 pages (such as **Home, About, Services, Contact, Gallery**).
+- Define the website’s purpose (Makhubu Technologies).
+- Outline 3–5 pages (such as \*\*Home, About, Services, Contact ).
 - Sketch or describe the layout of each page.
 - Map out the navigation flow between pages.
 
@@ -53,9 +53,7 @@ To ensure the project is **production-friendly**, the following best practices a
 
 The final project is deployed online using one of the following platforms:
 
-- **GitHub Pages** → Great for portfolios and static sites
 - **Netlify** → Easy CI/CD features and form support
-- **Vercel** → Fast deployment for frontend projects
 
 Deployment checklist:
 
@@ -91,4 +89,4 @@ Deployment checklist:
 
 ## 🔗 Live Demo
 
-👉 [View the live website here] https://conroymakhubu.netlify.app/
+👉 https://conroymakhubu.netlify.app/
